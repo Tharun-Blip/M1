@@ -10,6 +10,7 @@ Write a C program to read 3 characters one by one and print the characters in a 
 4.	End the program.
 
 ## PROGRAM:
+```
 #include <stdio.h>
 
 int main() {
@@ -20,16 +21,17 @@ int main() {
     printf("%c%c%c", c, b, a);
     return 0;
 }
-
+```
 
 ## OUTPUT:
+```
 Input: 
 A
 B
 C
 Output:
 CBA
-
+```
 
 
 
@@ -64,6 +66,7 @@ Write a C program to read A values and check whether A is positive number or not
 6.End the program.
 
 # PROGRAM:
+```
 #include <stdio.h>
 
 int main() {
@@ -76,20 +79,15 @@ int main() {
     }
     return 0;
 }
-
+```
 
 # OUTPUT:
+```
 Input:
 5
 Output:
 Positive number
-
-
-
-
-
-
-
+```
 
 
 
@@ -116,6 +114,7 @@ Write a program to find minimum between two fraction numbers using conditional o
 7.	Print the minimum value.
 
 ## PROGRAM:
+```
 #include <stdio.h>
 
 int main() {
@@ -129,9 +128,10 @@ int main() {
     printf("Minimum value is %f", min);
     return 0;
 }
-
+```
 
 ## OUTPUT:
+```
 Input:
 2
 5
@@ -139,7 +139,7 @@ Input:
 4
 Output:
 Minimum value is 0.400000
-
+```
 
 
 
@@ -169,6 +169,7 @@ Write a C program to check whether the input value is equal to 1 using simple if
 6.	End the program.
 
 ## PROGRAM:
+```
 #include <stdio.h>
 
 int main() {
@@ -181,14 +182,15 @@ int main() {
     }
     return 0;
 }
-
+```
 
 ## OUTPUT:
+```
 Input:
 5
 Output:
 Input value is not equal to 1
-
+```
 
 
 
@@ -223,6 +225,7 @@ c.	Else if percentage >= 36: Print “Division = Pass”
 9.	Else: Print “Division = Fail”
 10.	End
 ## PROGRAM:
+```
 #include <stdio.h>
 
 int main() {
@@ -245,9 +248,10 @@ int main() {
     }
     return 0;
 }
-
+```
 
 ## OUTPUT:
+```
 Input:
 65
 70
@@ -256,7 +260,7 @@ Output:
 Total = 195.00
 Percentage = 65.00
 Division = First
-
+```
 
 ## RESULT:
 The program successfully takes three subject marks, calculates the total and percentage, and correctly determines the division based on predefined grading logic.
